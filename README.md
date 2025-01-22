@@ -1,2 +1,9 @@
-# Math-Problem-Solver-Data-Search-Assistant-with-LangChain
-I developed a Math Problem Solver and Data Search Assistant leveraging LangChain, Groq API, and Streamlit, now deployed on Hugging Face Spaces for seamless access. The application integrates the Gemma2-9b-It model via Groq API to solve complex mathematical problems with detailed, step-by-step explanations. Additionally, it utilizes the WikipediaAPIWrapper through LangChain to perform real-time data retrieval, offering users contextualized information for non-mathematical queries. The user interface, built with Streamlit, features a chat-based design for intuitive interaction, enabling users to input math problems or reasoning-based questions and receive well-structured, instant responses. Through this project, I gained hands-on experience in multi-API integration, advanced model deployment, and creating interactive user experiences tailored for real-time problem-solving.
+title: Gemma Search
+emoji: 👀
+colorFrom: indigo
+colorTo: gray
+sdk: streamlit
+sdk_version: 1.41.1
+app_file: app.py
+pinned: false
+license: apache-2.0
