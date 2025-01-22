@@ -15,6 +15,6 @@ jobs:
           fetch-depth: 0
           lfs: true
       - name: Push to hub
-        env:
+        env: 
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: git push https://MuhammadSalman35:$HF_TOKEN@huggingface.co/spaces/MuhammadSalman35/gemma_math_solver main
