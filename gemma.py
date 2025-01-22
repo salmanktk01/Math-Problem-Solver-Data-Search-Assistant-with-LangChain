@@ -14,9 +14,9 @@ st.title("Text To Math Problem Solver Uing Google Gemma 2")
 groq_api_key=st.sidebar.text_input(label="Groq API Key",type="password")
 
 
-if not groq_api_key:
-    st.info("Please add your Groq APPI key to continue")
-    st.stop()
+# if not groq_api_key:
+#     st.info("Please add your Groq APPI key to continue")
+#     st.stop()
 
 llm=ChatGroq(model="Gemma2-9b-It",groq_api_key="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")
 
