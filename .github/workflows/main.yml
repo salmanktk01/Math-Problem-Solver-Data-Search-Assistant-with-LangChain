@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env: 
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://MuhammadSalman35:$HF_TOKEN@huggingface.co/spaces/MuhammadSalman35/gemma_math_solver main
+        run: git push https://MuhammadSalman35:$.HF_TOKEN@huggingface.co/spaces/MuhammadSalman35/gemma_search main
