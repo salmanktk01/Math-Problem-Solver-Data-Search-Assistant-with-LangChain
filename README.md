@@ -22,4 +22,4 @@ The chatbot will return AI-generated answers.
 
 ## Deployment
 The application is deployed on Hugging Face Spaces and can be accessed at:
-https://huggingface.co/spaces/MuhammadSalman35/gemma_search#response
+[Gemma AI](https://huggingface.co/spaces/MuhammadSalman35/gemma_search#response)
